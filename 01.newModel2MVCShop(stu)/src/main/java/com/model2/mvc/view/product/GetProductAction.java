@@ -20,7 +20,7 @@ public class GetProductAction extends Action {
 		ProductVO vo=service.getProduct(prodno);
 		System.out.println("vo~~~~~"+vo);
 		request.setAttribute("productVO", vo);
-
+		System.out.println("jnavavavava");
 		return "forward:/product/getProduct.jsp";
 	}
 }
